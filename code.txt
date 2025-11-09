@@ -1,3 +1,42 @@
+------------------------------------------
+6
+-------------------------------------------
+// Program: To interface DHT22 sensor with Arduino
+// and display Temperature and Humidity readings
+
+#include "DHT.h"          // Include DHT sensor library
+
+#define DHTPIN 2          // DHT22 data pin connected to digital pin 2
+#define DHTTYPE DHT22     // Define sensor type as DHT22
+
+DHT dht(DHTPIN, DHTTYPE); // Initialize DHT sensor
+
+void setup() {
+  Serial.begin(9600);                // Start serial communication
+  Serial.println("DHT22 Sensor Reading...");
+  dht.begin();                       // Initialize DHT sensor
+}
+
+void loop() {
+  float humidity = dht.readHumidity();        // Read humidity
+  float temperature = dht.readTemperature();  // Read temperature in Celsius
+
+  // Check if any reading failed
+  if (isnan(humidity) || isnan(temperature)) {
+    Serial.println("Failed to read from DHT22 sensor!");
+    return;
+  }
+
+  // Display readings
+  Serial.print("Temperature: ");
+  Serial.print(temperature);
+  Serial.print(" °C | Humidity: ");
+  Serial.print(humidity);
+  Serial.println(" %");
+
+  delay(2000);   // Wait 2 seconds between readings
+}
+
 -----------------------------------------------------
 7
 -------------------------------------------------------
