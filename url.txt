@@ -1,0 +1,26 @@
+1. List of Experiments
+1. Interfacing Arduino with Pot and Servo motor. : https://www.tinkercad.com/things/flZhOb0tfZu-1-interfacing-arduino-with-pot-and-servo-motor?sharecode=_msHqyJHih3Xant9ne--Y4xIugxE82nmt7mnSxMjIPg
+
+2. Interfacing Arduino with Stepper Motor. : https://www.tinkercad.com/things/gEBUGvFYA6P-2-interfacing-arduino-with-stepper-motor?sharecode=undefined
+
+3. Interfacing Arduino with Analog/Digital sensors. : https://www.tinkercad.com/things/cYsyxLWi54O-3-interfacing-arduino-with-analogdigital-sensors-?sharecode=0hBADwEVOe7bccieL571pwxS_k5EB3s-hp8vtJfBlKk
+
+4. Write a program to interface LED/Buzzer with Arduino and to turn ON LED for 1 second 
+after every 2 seconds. : https://www.tinkercad.com/things/1HYtMqTssGQ-4-interfacing-ledbuzzer-with-arduino?sharecode=60rN1eVKziKljmbixz5f19DwN_5zzRoj_qpSyQvdfGU
+
+5. Write a program to interface Digital sensor PIR with Arduino and to turn ON LED when
+motion is detected. : https://www.tinkercad.com/things/2AMsDeq9Kyw-5-interfacing-digital-sensor-pir-with-arduino?sharecode=mpAR9useUQkxLWHhtWNcYWJjA-7auSCnIw7feh72Chk
+
+6. Write a program to interface DHT22 sensor with Arduino and display temperature and
+humidity readings. : https://www.tinkercad.com/things/20JGU2vmwrs-6-interfacing-dht22-sensor-with-arduino?sharecode=KEFiWoO5V3-j3xbuKwQR_63Ft6CzYUjTXQ5-E2od-dk
+
+7. Write a program to interface the motor using relay with Raspberry Pi and turn ON the motor
+when the temperature is high.
+
+8. Write a program to interface LCD with Raspberry Pi and print temperature and humidity
+readings on it.
+
+9. Write a program to interface a flame/smoke sensor with Arduino/Raspberry Pi and give an
+alert message when flame/smoke is detected. : https://www.tinkercad.com/things/dPQJOZI2nrr-9-write-smoke-detection?sharecode=r_xqXDcXDDFOstuJIFDy4FP_he0vQfQz2ltobF06Q_I
+
+10. Implement any case study using Arduino/Raspberry Pi.
